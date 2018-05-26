@@ -1,8 +1,9 @@
 #include "version.hpp"
 
-//! git will put "#define GIT_ARCHIVE 1" on the next line inside archives. $Format:%n#define GIT_ARCHIVE 1$
+//! git will put "#define GIT_ARCHIVE 1" on the next line inside archives. 
+#define GIT_ARCHIVE 1
 #if defined(GIT_ARCHIVE) && !defined(GIT_COMMIT_HASH)
-#define GIT_COMMIT_HASH $Format:%h$
+#define GIT_COMMIT_HASH 26a5d65f
 #endif
 
 #ifndef GIT_COMMIT_HASH
