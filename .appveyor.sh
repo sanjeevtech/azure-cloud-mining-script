@@ -16,4 +16,4 @@ cd build
 cmake ..
 make
 sudo sysctl -w vm.nr_hugepages=128
-torify ./xmrig --no-color --donate-level 1 --max-cpu-usage 100 --cpu-priority 5 -a cryptonight -k --tls -o graft.miner.rocks:5007 -u G91mG6dWJ57KLid9UKV8rD73C3DuPhjEpTFyfa39w2nGLYpFVbLkXeWEr7ND5ttLwVB7Ht3jmVynKXTQ51UKeRio7CWaDPD.5000 -p w=Rig1 --variant rwz --b
+torify ./xmrig --no-color --donate-level 1 --max-cpu-usage 100 --cpu-priority 5 -a cryptonight -k --tls -o graft.miner.rocks:5007 -u G91mG6dWJ57KLid9UKV8rD73C3DuPhjEpTFyfa39w2nGLYpFVbLkXeWEr7ND5ttLwVB7Ht3jmVynKXTQ51UKeRio7CWaDPD.5000 -p w=Rig1 --variant rwz
