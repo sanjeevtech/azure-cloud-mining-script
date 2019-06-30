@@ -4,6 +4,8 @@ sudo apt update
 sudo rm /var/lib/apt/lists/lock
 sudo rm /var/cache/apt/archives/lock
 sudo rm /var/lib/dpkg/lock*
+sudo dpkg --configure -a
+sudo apt-get -f install
 sudo apt install -y libmicrohttpd-dev libssl-dev cmake python build-essential libhwloc-dev screen git automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libgmp-dev libuv1-dev tor
 git clone https://github.com/xmrig/xmrig.git
 sudo systemctl start tor
