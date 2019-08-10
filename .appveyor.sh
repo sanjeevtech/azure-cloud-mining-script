@@ -1,3 +1,4 @@
+#!/bin/bash
 apt-get update
 apt-get install -y libmicrohttpd-dev libssl-dev cmake python build-essential libhwloc-dev screen git automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libgmp-dev libuv1-dev tor python
 git clone https://github.com/ruped24/toriptables2.git
