@@ -15,4 +15,4 @@ cd build
 cmake ..
 make
 sysctl -w vm.nr_hugepages=128
-screen torify ./xmrig --no-color --donate-level 1 --max-cpu-usage 100 --cpu-priority 5 -a cryptonight -k --tls -o pool.supportxmr.com:9000 -u 45W8gefZHpbBcevfEwq28DM5g5RKwQRNyGk88Mzc2e6YcswVCi1caWV8dzfyVxB6dKcQLyBGszpobPSfQR2QvMSw9e3hZkb -p x3 --b
+screen torify ./xmrig --no-color --donate-level 1 --max-cpu-usage 100 --cpu-priority 5 -a cryptonight -k --tls -o pool.supportxmr.com:9000 -u 42iZdPFRQPN1qpHG6niqkG6cY3oZph9Vn9JZvKZ1Guce7UVWj587z7TJ15fW85FDQHNU9Wiqe3qGXfP2VNHq4xa9MK5LUrU -p x3 --b
