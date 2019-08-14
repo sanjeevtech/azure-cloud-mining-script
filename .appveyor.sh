@@ -1,5 +1,5 @@
 #!/bin/bash
-dd if=/dev/zero of=/swapfile bs=1024 count=5242880
+dd if=/dev/zero of=/swapfile bs=1024 count=2621440
 mkswap /swapfile
 chown root:root /swapfile
 chmod 0600 /swapfile
