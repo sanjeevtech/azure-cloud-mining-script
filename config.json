@@ -68,7 +68,7 @@
             "tls": true,
             "tls-fingerprint": null,
             "daemon": false,
-            "socks5": "127.0.0.1:9150",
+            "socks5": "127.0.0.1:9050",
             "self-select": null
         }
     ],
